@@ -1,0 +1,53 @@
+*{
+    font-family: Optima;
+}
+footer{
+    background-color: #2b1511 ;
+    color: white;
+    font-size: 15px;
+}
+/* .container{
+    padding: 5%;
+    text-align: center;
+} */
+
+.col-lg-3 ul{
+    list-style: none;
+}
+.col-lg-3 ul li{
+    padding-bottom: 5%;
+}
+.col-lg-3 ul h4{
+    padding-bottom: 5%;
+}
+.col-lg-3 ul li a{
+    text-decoration: none;
+    color: white;
+  
+    transition: 0.4s;
+}
+.col-lg-3 ul li a:hover{
+    color: #ffc966;
+  
+    margin-left: 10px;
+}
+/* .links{
+    margin-left: 10%;
+} */
+.links a{
+    color: white;
+    transition: 0.4s;
+    margin: 0 6px;
+}
+.links a:hover{
+    color: #ffc966;
+}
+.fa-brands{
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+hr{
+    width: 50%;
+    color: #ffc966;
+    height: 2px;
+}

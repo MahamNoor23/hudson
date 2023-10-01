@@ -1,0 +1,45 @@
+*{
+    font-family: Optima;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.fa-star{
+    color: gold;
+    
+}
+.fa-star-half-stroke{
+    color: gold;
+}
+
+.product-hr{
+    width: 100%;
+}
+.card img{
+    transition: 0.5s;
+    transform: scale(0.99,0.99);
+    opacity: 0.9;
+}
+.card .img{
+    overflow: hidden;
+}
+.card:hover img{
+    opacity: 1;
+transform: scale(1.1,1.1);
+}
+.card .card-body .product-hr{
+    width:100%;
+    transition: 0.5s;
+    color: #2b1511;
+}
+.card:hover .product-hr{
+    color: #ffc966;
+}
+
+
+
+
+
+
+

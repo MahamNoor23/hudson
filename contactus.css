@@ -1,0 +1,59 @@
+
+
+ .contact-us{
+    z-index: 12;
+    max-width: 1050px;
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    margin: 0 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+ }
+ 
+ .contact-icons {
+    font-size: 20px;
+    color:  #ffc966;
+}
+.contact-right{
+    color: #2b1511;
+    font-weight: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.contact-left{
+    background-image:
+    linear-gradient(to bottom,  rgba(255,201,102,0.3), rgba(255,201,102,0.1 )),
+    url('images/bedroom.png');
+    background-size: cover;
+   color: #fff;
+    /* background-color:#2b1511 ; */
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(113,44,23, 0.20);
+   
+
+}
+.send-btn{
+    border: 1px solid #ffc966;
+
+   
+    color:#2b1511;
+    background-color: #ffc966;
+    border-radius: 5px;
+    padding: 10px 20px;
+ 
+}
+.send-btn:hover{
+    background-color: white;
+    color: #2b1511;
+}
+.input-contact{
+    width: 30px;
+}
+
+.form > div > input:focus, textarea:focus{
+    /* border: 2px solid #ffc966 !important;
+    outline: 2px solid #ffc966 !important; */
+    border-color: rgba(255,201,102, 0.8) !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255,201,102, 0.6) !important;
+    outline: 0 none;
+}
